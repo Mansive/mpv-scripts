@@ -1,5 +1,5 @@
 local ext = { 
-    "mkv","mp4","webm","wmv","avi","3gp","ogv","mpg","mpeg","mov","vob" ,"ts","m2ts","divx","flv","asf","m4v","h264","h265","rmvb","rm","ogm"
+    "mkv","mp4","webm","wmv","avi","3gp","ogv","mpg","mpeg","mov","vob" ,"ts","m2ts","divx","flv","asf","m4v","h264","h265","rmvb","rm","ogm","mp3","wav","flac","m4a","wma","ogg","opus"
 }
 
 local valid = {}
@@ -29,4 +29,5 @@ local function main()
     end
 end
 
-mp.register_script_message("clean-playlist", main)
+--mp.register_script_message("clean-playlist", main)
+mp.register_event("file-loaded", main)
