@@ -1,5 +1,5 @@
 local ext = { 
-    "mkv","mp4","webm","wmv","avi","3gp","ogv","mpg","mpeg","mov","vob","ts","m2ts","divx","flv","asf","m4v","h264","h265","rmvb","rm","ogm","mp3","wav","flac","m4a","wma","ogg","opus"
+    "mkv","mp4","webm","wmv","avi","3gp","ogv","mpg","mpeg","mov","vob","ts","m2ts","divx","flv","asf","m4v","h264","h265","rmvb","rm","ogm","mp3","aac","wav","flac","m4a","wma","ogg","opus"
 }
 
 local valid = {}
